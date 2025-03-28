@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="507.0" prefWidth="688.0" style="-fx-background-color: #5e606c;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane layoutX="117.0" layoutY="115.0" prefHeight="371.0" prefWidth="445.0" style="-fx-background-color: #739559;" />
+      <Button layoutX="201.0" layoutY="393.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="79.0" text="Entrar" />
+      <Label layoutX="314.0" layoutY="147.0" text="Usuário:" textFill="WHITE" />
+      <TextField layoutX="227.0" layoutY="173.0" prefHeight="25.0" prefWidth="217.0" />
+      <Label layoutX="314.0" layoutY="227.0" prefHeight="17.0" prefWidth="43.0" text="Senha:" textFill="WHITE" />
+      <PasswordField layoutX="227.0" layoutY="254.0" prefHeight="25.0" prefWidth="217.0" />
+      <Label layoutX="217.0" layoutY="30.0" prefHeight="72.0" prefWidth="256.0" text="Faça Login">
+         <font>
+            <Font name="Bookman Old Style Bold" size="41.0" />
+         </font>
+      </Label>
+      <Button layoutX="381.0" layoutY="393.0" mnemonicParsing="false" text="Esqueceu sua senha?" />
+   </children>
+</Pane>
