@@ -1,8 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
-
+<?import javafx.scene.text.*?>
 
 <AnchorPane prefHeight="510.0" prefWidth="686.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.EsqueceusenhaView">
-
+   <children>
+      <Pane layoutY="-6.0" prefHeight="516.0" prefWidth="686.0">
+         <children>
+            <Button layoutX="293.0" layoutY="313.0" mnemonicParsing="false" text="Enviar" />
+            <Label layoutX="188.0" layoutY="75.0" text="Esqueceu sua senha?">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Label>
+            <TextField layoutX="158.0" layoutY="233.0" prefHeight="25.0" prefWidth="334.0" />
+            <Label layoutX="158.0" layoutY="216.0" text="Digite seu e-mail de acesso:" />
+            <Label layoutX="168.0" layoutY="150.0" text="Para recuperar seu acesso digite o email utilizado abaixo" />
+            <Button layoutX="268.0" layoutY="366.0" mnemonicParsing="false" text="Voltar ao Login" />
+         </children>
+      </Pane>
+   </children>
 </AnchorPane>
