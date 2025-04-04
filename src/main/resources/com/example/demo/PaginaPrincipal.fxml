@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="646.0" prefWidth="1134.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.PaginaPrincipal">
+   <children>
+      <Pane prefHeight="646.0" prefWidth="1145.0">
+         <children>
+            <Pane prefHeight="646.0" prefWidth="223.0" style="-fx-background-color: A7B49E;">
+               <children>
+                  <Button layoutX="58.0" layoutY="97.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="87.0" style="-fx-background-color: transparent; -fx-border-color: transparent;" text="Dashboard" />
+                  <ImageView fitHeight="27.0" fitWidth="24.0" layoutX="34.0" layoutY="98.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../icons/img_3.png" />
+                     </image>
+                  </ImageView>
+                  <Button layoutX="55.0" layoutY="139.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="75.0" style="-fx-background-color: transparent; -fx-border-color: transparent;" text="Alunos" />
+                  <ImageView fitHeight="27.0" fitWidth="24.0" layoutX="34.0" layoutY="140.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../icons/img_4.png" />
+                     </image>
+                  </ImageView>
+                  <Button layoutX="58.0" layoutY="184.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="75.0" style="-fx-background-color: transparent; -fx-border-color: transparent;" text="Financeiro" />
+                  <ImageView fitHeight="27.0" fitWidth="24.0" layoutX="34.0" layoutY="185.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../icons/img_5.png" />
+                     </image>
+                  </ImageView>
+                  <Button layoutX="55.0" layoutY="229.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="75.0" style="-fx-background-color: transparent; -fx-border-color: transparent;" text="Acesso" />
+                  <ImageView fitHeight="27.0" fitWidth="24.0" layoutX="34.0" layoutY="230.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../icons/img_6.png" />
+                     </image>
+                  </ImageView>
+                  <Button layoutX="58.0" layoutY="274.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="75.0" style="-fx-background-color: transparent; -fx-border-color: transparent;" text="Relatorios" />
+                  <ImageView fitHeight="27.0" fitWidth="24.0" layoutX="34.0" layoutY="275.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../icons/img_7.png" />
+                     </image>
+                  </ImageView>
+                  <Button layoutX="54.0" layoutY="330.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="101.0" style="-fx-background-color: transparent; -fx-border-color: transparent;" text="Vendas" />
+                  <ImageView fitHeight="27.0" fitWidth="24.0" layoutX="30.0" layoutY="331.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../icons/img_9.png" />
+                     </image>
+                  </ImageView>
+                  <Button layoutX="58.0" layoutY="426.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="114.0" style="-fx-background-color: transparent; -fx-border-color: transparent;" text="Configurações" />
+                  <ImageView fitHeight="27.0" fitWidth="24.0" layoutX="34.0" layoutY="427.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../icons/img_8.png" />
+                     </image>
+                  </ImageView>
+                  <Button layoutX="14.0" layoutY="605.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="67.0" style="-fx-background-color: transparent; -fx-border-color: transparent;" text="Iniciar" />
+                  <ImageView fitHeight="27.0" fitWidth="24.0" layoutX="97.0" layoutY="606.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../icons/img_10.png" />
+                     </image>
+                  </ImageView>
+                  <Button layoutX="143.0" layoutY="605.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="67.0" style="-fx-background-color: transparent; -fx-border-color: transparent;" text="Encerrar" />
+               </children></Pane>
+            <ScrollPane layoutX="254.0" layoutY="146.0" prefHeight="349.0" prefWidth="295.0">
+               <content>
+                  <VBox prefHeight="497.0" prefWidth="278.0" />
+               </content>
+            </ScrollPane>
+            <Label layoutX="339.0" layoutY="111.0" text="Acesso Recente">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="729.0" layoutY="138.0" text="Data/Hora Acesso" />
+            <Pane layoutX="565.0" layoutY="138.0" prefHeight="200.0" prefWidth="151.0" style="-fx-background-color: A7B49E;">
+               <children>
+                  <ImageView fitHeight="155.0" fitWidth="151.0" layoutX="-1.0" layoutY="-5.0" pickOnBounds="true" preserveRatio="true" />
+               </children>
+            </Pane>
+            <TextField editable="false" layoutX="729.0" layoutY="162.0" />
+            <Label layoutX="729.0" layoutY="198.0" text="Matrícula" />
+            <Label layoutX="922.0" layoutY="138.0" text="Vencimento" />
+            <TextField editable="false" layoutX="922.0" layoutY="162.0" />
+            <Label layoutX="922.0" layoutY="198.0" text="Cartão" />
+            <TextField editable="false" layoutX="922.0" layoutY="222.0" />
+            <Label layoutX="841.0" layoutY="264.0" prefHeight="27.0" prefWidth="140.0" text="Resposta da Catraca">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <TextField editable="false" layoutX="800.0" layoutY="298.0" prefHeight="25.0" prefWidth="223.0" style="-fx-background-color: #0FFF00;" />
+            <Label layoutX="740.0" layoutY="345.0" text="Nome" />
+            <TextField editable="false" layoutX="729.0" layoutY="226.0" prefHeight="25.0" prefWidth="124.0" />
+            <TextField editable="false" layoutX="738.0" layoutY="362.0" prefHeight="25.0" prefWidth="250.0" />
+            <Label layoutX="740.0" layoutY="395.0" text="Plano" />
+            <TextField editable="false" layoutX="738.0" layoutY="412.0" prefHeight="25.0" prefWidth="250.0" />
+            <Label layoutX="746.0" layoutY="76.0" text="Informação de Acesso">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+         </children></Pane>
+   </children>
+</AnchorPane>

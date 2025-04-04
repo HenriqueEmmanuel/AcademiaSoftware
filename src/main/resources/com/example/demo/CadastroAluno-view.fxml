@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="615.0" prefWidth="803.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.CadastroAlunoView">
+   <children>
+      <Pane prefHeight="623.0" prefWidth="826.0">
+         <children>
+            <Pane layoutY="-7.0" prefHeight="633.0" prefWidth="200.0" style="-fx-background-color: A7B49E;" />
+            <Pane layoutX="213.0" layoutY="95.0" prefHeight="512.0" prefWidth="604.0">
+               <children>
+                  <Label layoutX="20.0" layoutY="38.0" text="Nome Completo:" />
+                  <TextField layoutX="20.0" layoutY="64.0" prefHeight="25.0" prefWidth="349.0" />
+                  <Label layoutX="20.0" layoutY="100.0" text="Plano:" />
+                  <ComboBox layoutX="20.0" layoutY="123.0" prefWidth="150.0" />
+               </children>
+            </Pane>
+         </children></Pane>
+   </children>
+</AnchorPane>
