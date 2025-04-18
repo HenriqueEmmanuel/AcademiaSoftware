@@ -7,7 +7,7 @@
 
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #5bbb47;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Pane prefHeight="600.0" prefWidth="366.0" style="-fx-background-color: #FFFFFF;">
+      <Pane layoutX="217.0" prefHeight="600.0" prefWidth="366.0" style="-fx-background-color: #FFFFFF;">
          <children>
             <TextField layoutX="69.0" layoutY="339.0" prefHeight="25.0" prefWidth="217.0" />
             <Label layoutX="69.0" layoutY="313.0" text="Usuário:" />
